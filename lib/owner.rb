@@ -6,8 +6,7 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    @dogs = []
-    @cats = []
+    @pets = []
     @@all << self
   end
   
@@ -59,6 +58,8 @@ class Owner
     end
   end
   
-
+  def sell_pets
+    
+  end
   
 end
