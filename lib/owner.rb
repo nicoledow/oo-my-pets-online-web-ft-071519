@@ -73,6 +73,8 @@ class Owner
         cat.owner = nil
       end
     end
+    
+    self.pets.clear
   end
   
 end
