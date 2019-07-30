@@ -34,7 +34,8 @@ class Owner
   end
   
   def buy_cat(cat)
-    
+    cat.owner = self
+    @@all << cat
   end
   
 end
